@@ -4,7 +4,7 @@ const preferredLanguage = navigator.languages?.[0] || navigator.language || 'en'
 const traditionalChinese = /^zh(?:-|$)/i.test(preferredLanguage);
 if (traditionalChinese) {
   const translations = {
-    badge: '非官方網頁體驗 · v0.2.1',
+    badge: '非官方網頁體驗 · v0.4.0',
     source: '原作 GitHub ↗',
     download: '下載官方桌面版 ↗',
     notice: '使用說明',
@@ -13,13 +13,13 @@ if (traditionalChinese) {
     licenses: '授權與署名',
     heading: '更方便體驗 FilmCraft',
     purpose: '本站只是讓大家不用安裝，就能體驗 FilmCraft 原作。軟體由 ArtCraft 團隊與貢獻者開發；本站非官方營運，未獲官方背書。',
-    build: '載入官方 v0.2.1 網頁成品，JavaScript／WASM 模組；本站使用獨立單頁啟動器。',
+    build: '載入官方 v0.4.0 網頁成品，JavaScript／WASM 模組；本站使用獨立單頁啟動器。',
     parity: '網頁版與桌面版共用編輯引擎，但功能並非完全相同。',
     files: '素材留在本機；透過瀏覽器選取或拖放匯入，儲存與匯出會下載新檔。內建 Rust 編解碼器，不需另載 FFmpeg；支援時可用 WebCodecs 加速解碼。',
     persistence: '原版使用 OPFS 保存復原專案與部分素材，但受容量、隱私模式與清除資料影響。請另存專案並保留原始素材，不要把瀏覽器復原當成備份。',
     performance: '需要 WebGPU 或 WebGL2；目前是單執行緒，匯出會占用記憶體。長片、4K 與特效可能很慢；代理檔、預先算繪預覽、Project Manager 與遮罩追蹤目前不支援。',
     alpha: '手機縮放只調整顯示，並非完整觸控介面。網頁限制不代表桌面版也有限制；FilmCraft 本身仍在 alpha 階段，桌面版也不保證功能完整。',
-    evidence: '說明依 v0.2.1 原始碼核對，未逐項驗證所有編輯功能。正式工作前，請另存副本並試用官方桌面版。',
+    evidence: '說明依 v0.4.0 原始碼核對，未逐項驗證所有編輯功能。正式工作前，請另存副本並試用官方桌面版。',
     storage: '瀏覽器不允許儲存此偏好；下次開啟仍會顯示說明。',
     remember: '此瀏覽器不再提醒（仍可從「使用說明」重新開啟）',
     start: '開始體驗',

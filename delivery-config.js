@@ -1,9 +1,9 @@
 'use strict';
 globalThis.FILMCRAFT_DELIVERY = Object.freeze({
-  "revision": "feee775cbf5d6f17",
+  "revision": "77e42d7c069d615e",
   "wasmPath": "app/filmcraft_web_bg.wasm",
-  "wasmBytes": 35071117,
-  "wasmSha256": "d2bb01f57d62afca7edd297fa988cb5028cd2434fc899cb3295a6dc062c57660",
+  "wasmBytes": 40753243,
+  "wasmSha256": "b8569211b2f2f3ad3fc93caaf48cf6ada8e93f907430fa0749033a0d299a4098",
   "partsManifest": null,
   "partBytes": 524288,
   "downloadConcurrency": 4,
@@ -14,7 +14,7 @@ globalThis.FILMCRAFT_DELIVERY = Object.freeze({
   "slowNoticeSeconds": 30,
   "workerReadyTimeoutMs": 5000,
   "appId": "filmcraft",
-  "version": "0.2.1",
+  "version": "0.4.0",
   "canvasId": "filmcraft_canvas",
   "jsPath": "app/filmcraft_web.js",
   "bootstrap": "filmcraft"
