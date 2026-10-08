@@ -1,0 +1,62 @@
+{
+  "release": "v0.2.1",
+  "archive": "https://github.com/storytold/filmcraft/releases/download/v0.2.1/filmcraft-web-0.2.1.zip",
+  "archiveSha256": "f496c41f65e3f38b32b05b92c27940c5f464b442573b617e69923df0f085005c",
+  "files": [
+    {
+      "path": "app/_headers",
+      "bytes": 326,
+      "sha256": "e3e253de74fb99a761fc91d4dec4b81ad6a1022b29c98761b5ac1e8ba5aff05a"
+    },
+    {
+      "path": "app/.htaccess",
+      "bytes": 495,
+      "sha256": "c92d61b428bff284fce08dc57f0255261476397f2cba5836c833974eded5c725"
+    },
+    {
+      "path": "app/audio-worklet.js",
+      "bytes": 1820,
+      "sha256": "e3d3272a30eafe34505e5676eb3543d7248870835a5569f314f388c89b807524"
+    },
+    {
+      "path": "app/favicon.png",
+      "bytes": 17152,
+      "sha256": "7ca8adb57a34d1f4bff8c7e976ac5fe73e69a89b4268d15b3b861c7e51c45a74"
+    },
+    {
+      "path": "app/filmcraft_web_bg.wasm",
+      "bytes": 35071117,
+      "sha256": "d2bb01f57d62afca7edd297fa988cb5028cd2434fc899cb3295a6dc062c57660"
+    },
+    {
+      "path": "app/filmcraft_web.js",
+      "bytes": 179819,
+      "sha256": "6fa18b7a465e404e640d2a58a084275f4858fc5f15f7d67f098ee0c42fd535b7"
+    },
+    {
+      "path": "app/HOSTING.md",
+      "bytes": 4421,
+      "sha256": "aa495fcd5350a25acb4a485e7835acf3ca6a894a7c2980cb1a8f1a35480c331a"
+    },
+    {
+      "path": "app/index.html",
+      "bytes": 5077,
+      "sha256": "a169683763d4a5075fff2180f050f9e838fbafe8f670a1e2191fc8ff65aa24ec"
+    },
+    {
+      "path": "app/LICENSE-APACHE",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "app/LICENSE-MIT",
+      "bytes": 1101,
+      "sha256": "d2d8416f0883694c23b473e26372506e9e11f5f41b55a92b7388dab921d9a207"
+    },
+    {
+      "path": "app/README.md",
+      "bytes": 29060,
+      "sha256": "58ad81e1213c064f92b316b902fe85ec4f2656ddc6ee24e151291ea9d24be76c"
+    }
+  ]
+}
